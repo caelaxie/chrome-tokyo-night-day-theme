@@ -7,6 +7,8 @@
     "colors": {
       "frame": [153, 167, 223],
       "frame_inactive": [161, 166, 197],
+      "frame_incognito": [97, 114, 176],
+      "frame_incognito_inactive": [161, 166, 197],
       "toolbar": [225, 226, 231],
       "tab_text": [55, 96, 191],
       "tab_background_text": [97, 114, 176],
@@ -14,6 +16,8 @@
       "ntp_background": [225, 226, 231],
       "ntp_text": [55, 96, 191],
       "ntp_link": [46, 125, 233],
+      "ntp_header": [55, 96, 191],
+      "toolbar_button_icon": [97, 114, 176],
       "omnibox_text": [55, 96, 191],
       "omnibox_background": [225, 226, 231],
       "button_background": [161, 166, 197]
