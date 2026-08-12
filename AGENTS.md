@@ -7,6 +7,7 @@ A Chrome theme: the **TokyoNight Day** color scheme applied to the Chrome UI.
 ## Structure
 
 - `manifest.json` — the entire theme. Manifest V3 with a single `theme.colors` section; there is no code, build step, or dependency.
+- `icon.png` — 128×128 theme icon (sun motif), generated from palette colors: `#2e7de9` disc, `#3760bf` rays, `#e1e2e7` background. Regenerate with a rasterizer that uses only palette colors.
 - `tokyonight-day.itermcolors` — the canonical palette, vendored from [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/schemes/TokyoNight%20Day.itermcolors). Treat it as read-only; update it only by re-fetching upstream.
 
 ## Color rules (MUST follow)

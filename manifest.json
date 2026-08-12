@@ -3,6 +3,9 @@
   "name": "Tokyo Night Day",
   "version": "1.0.0",
   "description": "The TokyoNight Day color scheme, applied to the Chrome UI.",
+  "icons": {
+    "128": "icon.png"
+  },
   "theme": {
     "colors": {
       "frame": [153, 167, 223],
