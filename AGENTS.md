@@ -28,11 +28,9 @@ A Chrome theme: the **TokyoNight Day** color scheme applied to the Chrome UI.
 
 | itermcolors key | Hex | RGB | Chrome `theme.colors` key |
 |---|---|---|---|
-| Background Color | `#e1e2e7` | `[225, 226, 231]` | `ntp_background`, `omnibox_background` |
+| Background Color | `#e1e2e7` | `[225, 226, 231]` | `toolbar`, `ntp_background`, `omnibox_background` |
 | Foreground Color | `#3760bf` | `[55, 96, 191]` | `tab_text`, `bookmark_text`, `ntp_text`, `ntp_header`, `omnibox_text` |
-| Selection Color | `#99a7df` | `[153, 167, 223]` | `frame`, `toolbar` |
-
-Design note: `toolbar` intentionally equals `frame`. Chrome paints the tab separator in the toolbar color (`kColorTabDividerFrameActive = {kColorToolbar}` in the classic color mixer, which is what runs when a custom theme is installed), so matching them makes the separator invisible. Do not "fix" this without re-checking that derivation.
+| Selection Color | `#99a7df` | `[153, 167, 223]` | `frame` |
 | Ansi 8 Color (bright black) | `#a1a6c5` | `[161, 166, 197]` | `frame_inactive`, `frame_incognito_inactive`, `button_background` |
 | Ansi 7 Color (white) | `#6172b0` | `[97, 114, 176]` | `tab_background_text`, `toolbar_button_icon`, `frame_incognito` |
 | Ansi 4 Color (blue) | `#2e7de9` | `[46, 125, 233]` | `ntp_link` |
