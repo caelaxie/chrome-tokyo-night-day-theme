@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Tokyo Night Day",
+  "version": "1.0.0",
+  "description": "The TokyoNight Day color scheme, applied to the Chrome UI.",
+  "theme": {
+    "colors": {
+      "frame": [153, 167, 223],
+      "frame_inactive": [161, 166, 197],
+      "toolbar": [225, 226, 231],
+      "tab_text": [55, 96, 191],
+      "tab_background_text": [97, 114, 176],
+      "bookmark_text": [55, 96, 191],
+      "ntp_background": [225, 226, 231],
+      "ntp_text": [55, 96, 191],
+      "ntp_link": [46, 125, 233],
+      "omnibox_text": [55, 96, 191],
+      "omnibox_background": [225, 226, 231],
+      "button_background": [161, 166, 197]
+    }
+  }
+}
